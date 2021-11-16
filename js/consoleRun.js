@@ -4,7 +4,7 @@ students.push('Pereira')
 const remove = students.pop()
 
 console.log(remove) //remove 0 index or use delete students[0]
-console.log(students) 
+console.log(students) //
 
 // let num1 = 50.232840000
 // let whatIf = num1 + ' is? '
