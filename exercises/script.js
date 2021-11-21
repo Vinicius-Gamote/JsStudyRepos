@@ -1,3 +1,10 @@
+for (let i = -10; i <= 5; i++) {
+
+    const pair = i % 2 === 0 ? 'pair' : 'odd'
+    console.log(i, pair)
+
+}
+
 // ------------------------------ switch/case -------------------
 // function getDayWeekText(dayWeek) {
 
