@@ -1,9 +1,23 @@
-for (let i = -10; i <= 5; i++) {
+const people = {
 
-    const pair = i % 2 === 0 ? 'pair' : 'odd'
-    console.log(i, pair)
+    name: 'Gamotera',
+    age: 20,
+    position: 'Developer'
 
 }
+
+for (let keys in people) {
+
+    console.log(keys, people[keys])
+
+}
+
+// for (let i = -10; i <= 5; i++) {
+
+//     const pair = i % 2 === 0 ? 'pair' : 'odd'
+//     console.log(i, pair)
+
+// }
 
 // ------------------------------ switch/case -------------------
 // function getDayWeekText(dayWeek) {
